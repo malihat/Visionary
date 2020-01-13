@@ -1,11 +1,10 @@
 /*! 
 
 * Visionary CEO
-* Web Designer by Maliha
+* Web Designer Maliha
 * Copyright (C) 2020 Lance Smith, https://lancesmith.org/ 
 
 */
-
 
 html {
   scroll-behavior: smooth;
@@ -15,27 +14,34 @@ html {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
+  bottom: 35px;
   right: 10px;
-  font-size: 35px;
+  font-size: 28px;
   z-index: 99;
   border: none;
-  border-radius: 4rem;
+  border-radius: 3.3rem;
   outline: none;
   background-color: rgba(254, 201, 87, 0);
-  color: #d8d8d8;
+  color: #b3b8c0;
   cursor: pointer;
-  /*padding: 15px;*/
 }
 
-#myBtn:hover {
+/* #myBtn:hover {
   background-color: rgba(254, 201, 87, 0);
+} */
+
+.fa-angle-up {
+  color: rgba(114, 114, 116, 0.829);
+  height: 60px;
+  width: 60px;
+  background-color: rgba(178, 179, 182, 0.767);
+  border-radius: 50%;
+  display: inline-block;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.16);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-
 }
 
 /* --------------------------------------------------------------------- */
@@ -124,14 +130,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   }
 
   .btn-secondary {
-    background-color: rgba(14, 76, 161, 1);
-    border-color: rgba(14, 76, 161, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
     margin: 5px;
   }
 
   .btn-secondary:hover {
-    background-color: rgba(109, 147, 198, 1);
-    border-color:rgba(109, 147, 198, 1);
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   /* ABOUT  */
@@ -143,14 +149,13 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
 
   /* #about-button */
   .btn-primary {
-    background-color: rgba(14, 76, 161, 1);
-    border-color: rgba(14, 76, 161, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
   }
   
-  /* #about-button:hover */
   .btn-primary:hover {
-    background-color: rgba(109, 147, 198, 1);
-    border-color:rgba(109, 147, 198, 1);
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   #about-img-first {
@@ -184,8 +189,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   /* MEDIA */
   .socialmedia {
     padding-top: 80px;
-    padding-bottom: 100px;
-    background-image: linear-gradient(rgb(59, 66, 69), rgba(46, 72, 89, 0.79)), url(images/media.jpg);
+    padding-bottom: 100px;   
+    background-image: linear-gradient(rgb(59, 66, 69), rgba(46, 72, 89, 0.55)), url(images/media.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -223,7 +228,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   }
 
   #links {
-    padding-right: 50px;
+    padding: 0 0 0 85px;
   } 
 
   .footer-links {
@@ -240,23 +245,15 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
     padding: 6px 0;
     margin: 0;
     color: white;
-    background-color: rgba(106, 133, 87, 1);
-    border-color: rgba(106, 133, 87, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
   }
 
   #subscribe-btn:hover {
-    background-color: rgb(69, 104, 45);
-    border-color: rgb(69, 104, 45);
+    background-color: rgb(65, 112, 142);
+    border-color: rgb(65, 112, 142);
   }
 
-  .fa-angle-up {
-    color: rgba(114, 114, 116, 0.829);
-    height: 75px;
-    width: 75px;
-    background-color: rgba(199, 199, 200, 0.767);
-    border-radius: 50%;
-    display: inline-block;
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -340,14 +337,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   }
 
   .btn-secondary {
-    background-color: rgba(14, 76, 161, 1);
-    border-color: rgba(14, 76, 161, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
     margin: 5px;
   }
 
   .btn-secondary:hover {
-    background-color: rgba(109, 147, 198, 1);
-    border-color:rgba(109, 147, 198, 1);
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   /* ABOUT  */
@@ -357,16 +354,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
     background-color: rgba(248,249,250,1)
   }
 
-  /* #about-button */
   .btn-primary {
-    background-color: rgba(14, 76, 161, 1);
-    border-color: rgba(14, 76, 161, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
   }
   
-  /* #about-button:hover */
   .btn-primary:hover {
-    background-color: rgba(109, 147, 198, 1);
-    border-color:rgba(109, 147, 198, 1);
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   #about-img-first {
@@ -403,7 +398,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   .socialmedia {
     padding-top: 80px;
     padding-bottom: 100px;
-    background-image: linear-gradient(rgb(59, 66, 69), rgba(46, 72, 89, 0.79)), url(images/media.jpg);
+    background-image: linear-gradient(rgb(59, 66, 69), rgba(46, 72, 89, 0.55)), url(images/media.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -441,7 +436,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   }
 
   #links {
-    padding-right: 45px;
+    padding: 0 0 0 85px;
   }
 
   .footer-links {
@@ -458,21 +453,12 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
     padding: 6px 0;
     margin: 0;
     color: white;
-    background-color: rgba(106, 133, 87, 1);
-    border-color: rgba(106, 133, 87, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
   }
   #subscribe-btn:hover {
-    background-color: rgb(69, 104, 45);
-    border-color: rgb(69, 104, 45);
-  }
-
-  .fa-angle-up {
-    color: rgba(114, 114, 116, 0.829);
-    height: 75px;
-    width: 75px;
-    background-color: rgba(199, 199, 200, 0.767);
-    border-radius: 50%;
-    display: inline-block;
+    background-color: rgb(65, 112, 142);
+    border-color: rgb(65, 112, 142);
   }
 }
 
@@ -557,14 +543,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   }
 
   .btn-secondary {
-    background-color: rgba(14, 76, 161, 1);
-    border-color: rgba(14, 76, 161, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
     margin: 5px;
   }
 
   .btn-secondary:hover {
-    background-color: rgba(109, 147, 198, 1);
-    border-color:rgba(109, 147, 198, 1);
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   /* ABOUT  */
@@ -579,16 +565,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
     margin-top: 50px;
   }
 
-  /* #about-button */
   .btn-primary {
-    background-color: rgba(14, 76, 161, 1);
-    border-color: rgba(14, 76, 161, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
   }
   
-  /* #about-button:hover */
   .btn-primary:hover {
-    background-color: rgba(109, 147, 198, 1);
-    border-color:rgba(109, 147, 198, 1);
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
  
   #about-img-first {
@@ -621,22 +605,22 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   }
 
   #blog-button {
-    background-color: rgba(14, 76, 161, 1);
-    border-color: rgba(14, 76, 161, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
     padding: .375rem 5rem;
     margin-bottom: 25px;
   }
 
   #blog-button:hover {
-    background-color: rgba(109, 147, 198, 1);
-    border-color:rgba(109, 147, 198, 1);
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   /* MEDIA */
   .socialmedia {
     padding-top: 80px;
     padding-bottom: 100px;
-    background-image: linear-gradient(rgb(59, 66, 69), rgba(46, 72, 89, 0.79)), url(images/media.jpg);
+    background-image: linear-gradient(rgb(59, 66, 69), rgba(46, 72, 89, 0.55)), url(images/media.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -675,9 +659,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
 
   #footer-logo {
     margin-bottom: 25px;
+    text-align: center;
   }
 
   #links {
+    text-align: center;
     margin-bottom: 40px;
   }
 
@@ -699,22 +685,13 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
     padding: 6px 0;
     margin: 0;
     color: white;
-    background-color: rgba(106, 133, 87, 1);
-    border-color: rgba(106, 133, 87, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
   }
 
   #subscribe-btn:hover {
-    background-color: rgb(69, 104, 45);
-    border-color: rgb(69, 104, 45);
-  }
-
-  .fa-angle-up {
-    color: rgba(114, 114, 116, 0.829);
-    height: 75px;
-    width: 75px;
-    background-color: rgba(199, 199, 200, 0.767);
-    border-radius: 50%;
-    display: inline-block;
+    background-color: rgb(65, 112, 142);
+    border-color: rgb(65, 112, 142);
   }
 }
 
@@ -796,14 +773,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   }
 
   .btn-secondary {
-    background-color: rgba(14, 76, 161, 1);
-    border-color: rgba(14, 76, 161, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
     margin: 5px;
   }
 
   .btn-secondary:hover {
-    background-color: rgba(109, 147, 198, 1);
-    border-color:rgba(109, 147, 198, 1);
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   /* ABOUT  */
@@ -818,16 +795,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
     margin-top: 50px;
   }
 
-  /* #about-button */
   .btn-primary {
-    background-color: rgba(14, 76, 161, 1);
-    border-color: rgba(14, 76, 161, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
   }
   
-  /* #about-button:hover */
   .btn-primary:hover {
-    background-color: rgba(109, 147, 198, 1);
-    border-color:rgba(109, 147, 198, 1);
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   #about-img-first {
@@ -860,22 +835,22 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   }
 
   #blog-button {
-    background-color: rgba(14, 76, 161, 1);
-    border-color: rgba(14, 76, 161, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
     padding: .375rem 5rem;
     margin-bottom: 20px;
   }
 
   #blog-button:hover {
-    background-color: rgba(109, 147, 198, 1);
-    border-color:rgba(109, 147, 198, 1);
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   /* MEDIA */
   .socialmedia {
     padding-top: 80px;
     padding-bottom: 100px;
-    background-image: linear-gradient(rgb(59, 66, 69), rgba(46, 72, 89, 0.79)), url(images/media.jpg);
+    background-image: linear-gradient(rgb(59, 66, 69), rgba(46, 72, 89, 0.55)), url(images/media.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -914,9 +889,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
 
   #footer-logo {
     margin-bottom: 25px;
+    text-align: center;
   }
 
   #links {
+    text-align: center;
     margin-bottom: 40px;
   }
 
@@ -938,21 +915,12 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
     padding: 6px 0;
     margin: 0;
     color: white;
-    background-color: rgba(106, 133, 87, 1);
-    border-color: rgba(106, 133, 87, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
   }
   #subscribe-btn:hover {
-    background-color: rgb(69, 104, 45);
-    border-color: rgb(69, 104, 45);
-  }
-
-  .fa-angle-up {
-    color: rgba(114, 114, 116, 0.829);
-    height: 75px;
-    width: 75px;
-    background-color: rgba(199, 199, 200, 0.767);
-    border-radius: 50%;
-    display: inline-block;
+    background-color: rgb(65, 112, 142);
+    border-color: rgb(65, 112, 142);
   }
 }
 
@@ -1001,12 +969,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   .carousel-caption {
     position: absolute;
     /* max-width: 250px; */
-    bottom: 150px;
+    bottom: 190px;
     z-index: 10;
     padding: 20px;
     color: #fff;
     text-align: left;
-    /* background-color: rgba(0, 0, 0, 0.7686274509803922); */
     right: 20%;
     left: 20%;
   }
@@ -1015,12 +982,16 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
     padding-right: 0px;
     padding-left: 0px;
   }
-    
+  
+  .slider-heading {
+    font-size: 1.28rem;
+  }
+
   .slider-text {
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 20px; 
-    max-height: 65px;
+    max-height: 60px;
   }
 
   #img-1 {
@@ -1042,22 +1013,23 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   }
 
   .btn-secondary {
-    background-color: rgba(14, 76, 161, 1);
-    border-color: rgba(14, 76, 161, 1);
-    margin: 5px;
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
+    display: block;
+    margin: 7px 0;
     padding: 10 25px;
   }
 
   .btn-secondary:hover {
-    background-color: rgba(109, 147, 198, 1);
-    border-color:rgba(109, 147, 198, 1);
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   /* ABOUT  */
   #about.section {
     padding-top: 100px;
     padding-bottom: 100px; 
-    background-color: rgba(248,249,250,1);
+    background-color: rgb(249, 250, 251);
   }
 
   #about-text {
@@ -1066,14 +1038,13 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   }
 
   .btn-primary {
-    background-color: rgba(14, 76, 161, 1);
-    border-color: rgba(14, 76, 161, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
   }
   
-  /* #about-button:hover */
   .btn-primary:hover {
-    background-color: rgba(109, 147, 198, 1);
-    border-color:rgba(109, 147, 198, 1);
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   #about-img-first {
@@ -1087,7 +1058,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
    /* BLOG */
   .section#blog{
     padding-top: 100px;
-    /* padding-bottom: 20px; */
     background-color: rgba(47, 54, 57, 0.94);
     color:#fff;
   }
@@ -1106,22 +1076,22 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   }
 
   #blog-button {
-    background-color: rgba(14, 76, 161, 1);
-    border-color: rgba(14, 76, 161, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
     padding: .375rem 5rem;
     margin-bottom: 20px;
   }
 
   #blog-button:hover {
-    background-color: rgba(109, 147, 198, 1);
-    border-color:rgba(109, 147, 198, 1);
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   /* MEDIA */
   .socialmedia {
     padding-top: 55px;
     padding-bottom: 100px;
-    background-image: linear-gradient(rgb(59, 66, 69), rgba(46, 72, 89, 0.79)), url(images/media.jpg);
+    background-image: linear-gradient(rgb(59, 66, 69), rgba(46, 72, 89, 0.55)), url(images/media.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1159,10 +1129,12 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   }
 
   #footer-logo {
+    text-align: center;
     margin-bottom: 25px;
   }
 
   #links {
+    text-align: center;
     margin-bottom: 40px;
   }
 
@@ -1184,20 +1156,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
     padding: 6px 0;
     margin: 0;
     color: white;
-    background-color: rgba(106, 133, 87, 1);
-    border-color: rgba(106, 133, 87, 1);
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
   }
   #subscribe-btn:hover {
-    background-color: rgb(69, 104, 45);
-    border-color: rgb(69, 104, 45);
-  }
-
-  .fa-angle-up {
-    color: rgba(114, 114, 116, 0.829);
-    height: 75px;
-    width: 75px;
-    background-color: rgba(199, 199, 200, 0.767);
-    border-radius: 50%;
-    display: inline-block;
+    background-color: rgb(65, 112, 142);
+    border-color: rgb(65, 112, 142);
   }
 }
