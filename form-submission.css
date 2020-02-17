@@ -1,0 +1,1034 @@
+/*--Responsive--*/
+@media (min-width: 1200px) {}
+@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 576px) and (max-width: 767px) {}
+/* MOBILE */
+@media (max-width: 575px) {}
+/*--Responsive--*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
+  box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.16);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+p,a {
+  font-family: sans-serif;
+}
+
+h1, h2, h3, .nav-link {
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width: 1200px) {
+  /* Social Media Links Top */  
+  .socialmedia-container {
+    background-color:  #355e82;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.1rem;
+  }
+
+  #top-icons {
+    text-align: right;
+  }
+  
+  #top-text {
+    margin-bottom: 0px;
+    color:#fff;
+  }
+
+  .header-icons{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 9px;
+    text-align: right;
+  }
+
+  .header-icons:hover {
+    opacity: .5;
+    text-decoration: none;
+    color: rgb(0, 40, 77);
+  }
+
+  /* Navbar */
+  .navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgba(14, 16, 62, 0.28);
+  }
+
+  .nav-link {
+    font-size: 1.3rem;
+    color: black;
+  }
+
+  .navbar-brand {
+    width: 370px;
+  }
+
+  .thankyou-page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(rgba(42, 80, 119, 0.82), rgba(12, 75, 129, 0.6)), url(images/form-submission.jpg);;
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  #letter {
+    width: 25%;
+    height: 40%;
+    margin-bottom: 15px;
+  }
+ 
+  #text-one {
+    margin-bottom: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(214, 214, 214);
+  }
+
+  #text-second {
+    font-size: 1.2rem;
+    color: rgb(214, 214, 214);
+  }
+
+  #youtube {
+    background: #bb0000;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+  
+  #instagram {
+    background: #125688;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+
+  #facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+  
+  #twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+
+  #share {
+    color: rgb(255, 255, 0);
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  /* FOOTER */ 
+  #footer {
+    background-color: rgb(0,0,0);
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+ 
+  #footer i {
+    color: rgb(255, 255, 255);
+    margin: 10px 0 25px;
+    font-size: 1.7rem;
+    padding-right: 10px;
+  }
+
+  #footer-logo p {
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    font-size: 11px;
+    opacity: .7;
+  }
+
+  #links h4, #media, #newsletter {
+    font-weight: 600;
+    color: rgba(76, 102, 187, 0.99); 
+  }
+
+  #links {
+    padding: 0 0 0 85px;
+  } 
+
+  #links a:hover {
+    color:rgba(109, 131, 160, 0.99);
+  }
+
+  #media {
+    margin: 30px 0 0 0;
+  }
+
+  a.icons {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding-right: 15px;
+  }
+
+  #footer-icons.fa:hover {
+    color:rgba(109, 131, 160, 0.99);
+  }
+
+  .footer-links {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+
+  .footer-links:hover {
+    text-decoration: none;
+  }
+
+  #newsletter {
+    margin-bottom: 13px;
+  }
+
+  #subscribe-btn {
+    display: block;
+    padding: 6px 0;
+    margin: 0;
+    color: white;
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
+  }
+
+  #subscribe-btn:hover {
+    background-color: rgb(65, 112, 142);
+    border-color: rgb(65, 112, 142);
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Social Media Links Top */  
+  .socialmedia-container {
+    background-color:  #355e82;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.1rem;
+  }
+
+  #top-icons {
+    text-align: right;
+  }
+  
+  #top-text {
+    margin-bottom: 0px;
+    color:#fff;
+  }
+
+  .header-icons{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 9px;
+    text-align: right;
+  }
+
+  .header-icons:hover {
+    opacity: .5;
+    text-decoration: none;
+    color: rgb(0, 40, 77);
+  }
+
+  /* Navbar */
+  .navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgba(14, 16, 62, 0.28);
+  }
+
+  .nav-link {
+    font-size: 1.3rem;
+    color: black;
+  }
+
+  .navbar-brand {
+    width: 370px;
+  }
+
+  .thankyou-page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(rgba(42, 80, 119, 0.82), rgba(12, 75, 129, 0.6)), url(images/form-submission.jpg);;
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  #letter {
+    width: 30%;
+    height: 40%;
+    margin-bottom: 15px;
+  }
+ 
+  #text-one {
+    margin-bottom: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(214, 214, 214);
+  }
+
+  #text-second {
+    font-size: 1.2rem;
+    color: rgb(214, 214, 214);
+  }
+
+  #youtube {
+    background: #bb0000;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+  
+  #instagram {
+    background: #125688;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+
+  #facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+  
+  #twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+
+  #share {
+    color: rgb(255, 255, 0);
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  /* FOOTER */
+  #footer {
+    background-color: rgb(0,0,0);
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  #footer i {
+    color: rgb(255, 255, 255);
+    margin: 10px 0 25px;
+    font-size: 1.7rem;
+    padding-right: 10px;
+  }
+
+  #footer-logo p {
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    font-size: 11px;
+    opacity: .7;
+  }
+
+  #links h4, #media, #newsletter {
+    font-weight: 600;
+    color: rgba(76, 102, 187, 0.99); 
+  }
+
+  #links {
+    padding: 0 0 0 85px;
+  }
+
+  #links a:hover {
+    color:rgba(109, 131, 160, 0.99);
+  }
+
+  #media {
+    margin-top: 30px;
+  }
+
+  a.icons {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding-right: 15px;
+  }
+
+  #footer-icons.fa:hover {
+    color:rgba(109, 131, 160, 0.99);
+  }
+
+  .footer-links {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+
+  .footer-links:hover {
+    text-decoration: none;
+  }
+
+  #newsletter {
+    margin-bottom: 13px;
+  }
+
+  #subscribe-btn {
+    display: block;
+    padding: 6px 0;
+    margin: 0;
+    color: white;
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
+  }
+  #subscribe-btn:hover {
+    background-color: rgb(65, 112, 142);
+    border-color: rgb(65, 112, 142);
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Social Media Links Top */  
+  .socialmedia-container {
+    background-color:  #355e82;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.1rem;
+  }
+
+  #top-icons {
+    text-align: right;
+  }
+  
+  #top-text {
+    margin-bottom: 0px;
+    color:#fff;
+  }
+
+  .header-icons{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 9px;
+    text-align: right;
+  }
+
+  .header-icons:hover {
+    opacity: .5;
+    text-decoration: none;
+    color: rgb(0, 40, 77);
+  }
+
+  /* Navbar */
+  .navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgba(14, 16, 62, 0.28);
+  }
+
+  .nav-link {
+    font-size: 1.3rem;
+    color: black;
+  }
+
+  .navbar-brand {
+    width: 370px;
+  }
+
+  .thankyou-page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(rgba(42, 80, 119, 0.82), rgba(12, 75, 129, 0.6)), url(images/form-submission.jpg);;
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  #letter {
+    width: 37%;
+    height: 35%;
+    margin-bottom: 15px;
+  }
+ 
+  #text-one {
+    margin-bottom: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(214, 214, 214);
+  }
+
+  #text-second {
+    font-size: 1.2rem;
+    color: rgb(214, 214, 214);
+  }
+
+  #youtube {
+    background: #bb0000;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+  
+  #instagram {
+    background: #125688;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+
+  #facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+  
+  #twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+
+  #share {
+    color: rgb(255, 255, 0);
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  /* FOOTER */
+  #footer {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  #footer i {
+    color: rgb(255, 255, 255);
+    margin: 10px 0 25px;
+    font-size: 1.7rem;
+    padding-right: 10px;
+  }
+
+  #footer-logo p {
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    font-size: 11px;
+    opacity: .7;
+  }
+
+  #footer-logo {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  #links h4, #media, #newsletter {
+    font-weight: 600;
+    color: rgba(76, 102, 187, 0.99); 
+  }
+
+  #links {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  #media {
+    margin-top: 30px;
+  }
+
+  #links a:hover {
+    color:rgba(109, 131, 160, 0.99);
+  }
+
+  a.icons {
+    text-decoration: none;
+    padding-right: 15px;
+  }
+
+  #footer-icons.fa:hover {
+    color:rgba(109, 131, 160, 0.99);
+  }
+
+  .footer-links {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+
+  .footer-links:hover {
+    text-decoration: none;
+  }
+
+  #newsletter {
+    margin-bottom: 15px;
+    text-align: center;
+    margin-bottom: 13px;
+  }
+
+  #subscribe-btn {
+    display: block;
+    padding: 6px 0;
+    margin: 0;
+    color: white;
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
+  }
+
+  #subscribe-btn:hover {
+    background-color: rgb(65, 112, 142);
+    border-color: rgb(65, 112, 142);
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Social Media Links Top */  
+  .socialmedia-container {
+    background-color:  #355e82;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.1rem;
+  }
+
+  #top-icons {
+    text-align: center;
+  }
+  
+  #top-text {
+    margin-bottom: 0px;
+    color:#fff;
+    text-align: center;
+  }
+
+  .header-icons{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 9px;
+    text-align: right;
+  }
+
+  .header-icons:hover {
+    opacity: .5;
+    text-decoration: none;
+    color: rgb(0, 40, 77);
+  }
+
+  /* Navbar */
+  .navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgba(14, 16, 62, 0.28);
+  }
+
+  .nav-link {
+    font-size: 1.3rem;
+    color: black;
+  }
+
+  .navbar-brand {
+    width: 370px;
+  }
+
+  .thankyou-page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(rgba(42, 80, 119, 0.82), rgba(12, 75, 129, 0.6)), url(images/form-submission.jpg);;
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  #letter {
+    width: 55%;
+    height: 37%;
+    margin-bottom: 15px;
+  }
+ 
+  #text-one {
+    margin-bottom: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(214, 214, 214);
+  }
+
+  #text-second {
+    font-size: 1.2rem;
+    color: rgb(214, 214, 214);
+  }
+
+  #youtube {
+    background: #bb0000;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+  
+  #instagram {
+    background: #125688;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+
+  #facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+  
+  #twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+  }
+
+  #share {
+    color: rgb(255, 255, 0);
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  /* FOOTER */
+  #footer {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  #footer i {
+    color: rgb(255, 255, 255);
+    margin: 10px 0 25px;
+    font-size: 1.7rem;
+    padding-right: 10px;
+  }
+
+  #footer-logo p {
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    font-size: 11px;
+    opacity: .7;
+  }
+
+  #footer-logo {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  #links h4, #media, #newsletter {
+    font-weight: 600;
+    color: rgba(76, 102, 187, 0.99); 
+  }
+
+  #links {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  #links a:hover {
+    color:rgba(109, 131, 160, 0.99);
+  }
+
+  #media {
+    margin-top: 30px;
+  }
+
+  a.icons {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding-right: 15px;
+  }
+
+  #footer-icons.fa:hover {
+    color:rgba(109, 131, 160, 0.99);
+  }
+
+  .footer-links {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+
+  .footer-links:hover {
+    text-decoration: none;
+  }
+
+  #newsletter {
+    margin-bottom: 15px;
+    text-align: center;
+    margin-bottom: 13px;
+  }
+
+  #subscribe-btn {
+    display: block;
+    padding: 6px 0;
+    margin: 0;
+    color: white;
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
+  }
+  #subscribe-btn:hover {
+    background-color: rgb(65, 112, 142);
+    border-color: rgb(65, 112, 142);
+  }
+}
+
+@media (max-width: 575px) {
+  /* Social Media Links Top */  
+  .socialmedia-container {
+    background-color:  #355e82;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.1rem;
+  }
+
+  #top-icons {
+    text-align: center;
+  }
+  
+  #top-text {
+    margin-bottom: 0px;
+    color:#fff;
+    text-align: center;
+  }
+
+  .header-icons{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 9px;
+    text-align: right;
+  }
+
+  .header-icons:hover {
+    opacity: .5;
+    text-decoration: none;
+    color: rgb(0, 40, 77);
+  }
+
+  /* Navbar */
+  .navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgba(14, 16, 62, 0.28);
+  }
+
+  .nav-link {
+    font-size: 1.3rem;
+    color: black;
+  }
+
+  .navbar-brand {
+    width: 370px;
+  }
+
+  .thankyou-page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(rgba(42, 80, 119, 0.82), rgba(12, 75, 129, 0.6)), url(images/form-submission.jpg);;
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  #letter {
+    width: 50%;
+    height: 30%;
+    margin-bottom: 15px;
+  }
+ 
+  #text-one {
+    margin-bottom: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(214, 214, 214);
+  }
+
+  #text-second {
+    font-size: 1.2rem;
+    color: rgb(214, 214, 214);
+  }
+
+  #youtube {
+    background: #bb0000;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+  }
+  
+  #instagram {
+    background: #125688;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+  }
+
+  #facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+  }
+  
+  #twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+  }
+
+  #share {
+    color: rgb(255, 255, 0);
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+   /* FOOTER */
+   #footer {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  #footer i {
+    color: rgb(255, 255, 255);
+    margin: 10px 0 25px;
+    font-size: 1.7rem;
+    padding-right: 10px;
+  }
+
+  #footer-logo p {
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    font-size: 11px;
+    opacity: .7;
+  }
+
+  #footer-logo {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  #links h4, #media, #newsletter {
+    font-weight: 600;
+    color: rgba(76, 102, 187, 0.99); 
+  }
+
+  #links {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  #media {
+    margin-top: 30px;
+  }
+
+  #links a:hover {
+    color:rgba(109, 131, 160, 0.99);
+  }
+
+  a.icons {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding-right: 15px;
+  }
+
+  #footer-icons.fa:hover {
+    color:rgba(109, 131, 160, 0.99);
+  }
+
+  .footer-links {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+
+  .footer-links:hover {
+    text-decoration: none;
+  }
+
+  #newsletter {
+    margin-bottom: 15px;
+    text-align: center;
+    margin-bottom: 13px;
+  }
+
+  #subscribe-btn {
+    display: block;
+    padding: 6px 0;
+    margin: 0;
+    color: white;
+    background-color: rgb(6, 88, 140);;
+    border-color: rgb(6, 88, 140);;
+  }
+  #subscribe-btn:hover {
+    background-color: rgb(65, 112, 142);
+    border-color: rgb(65, 112, 142);
+  }
+}

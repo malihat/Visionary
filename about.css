@@ -1,19 +1,11 @@
-/*! 
-
-* Visionary CEO
-* Web Designer Maliha
-* Copyright (C) 2020 Lance Smith, https://lancesmith.org/ 
-*/
-/* .btn-primary {
-  background-color: rgb(6, 88, 140);;
-  border-color: rgb(6, 88, 140);;
-}
-
-.btn-primary:hover {
-  background-color: rgb(65, 112, 142);
-  border-color:rgb(65, 112, 142);
-} */
-
+/*--Responsive--*/
+@media (min-width: 1200px) {}
+@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 576px) and (max-width: 767px) {}
+/* MOBILE */
+@media (max-width: 575px) {}
+/*--Responsive--*/
 
 html {
   scroll-behavior: smooth;
@@ -48,27 +40,24 @@ html {
   display: inline-block;
 }
 
+
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.16);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 p,a {
-  /* font-family: sans-serif; */
-  font-family: 'helvetica';
-  /* font-family: sans-serif; */
+  font-family: sans-serif;
+  /* font-family: 'helvetica'; */
+  /* font-family: 'Open Sans', sans-serif; */
 }
 
-h1, h2, h3, h4, h5, .nav-link {
+h1, h2, h3, .nav-link {
   font-family: 'Raleway', sans-serif;
 }
 
 
-
-/* --------------------------------------------------------------------- */
-
 @media (min-width: 1200px) {
-
   /* Social Media Links Top */  
   .socialmedia-container {
     background-color:  #355e82;
@@ -104,8 +93,6 @@ h1, h2, h3, h4, h5, .nav-link {
     padding-top: 20px;
     padding-bottom: 20px;
     box-shadow: rgba(14, 16, 62, 0.28);
-    height: 94.5px;
-    width: 100%;
   }
 
   .nav-link {
@@ -117,83 +104,96 @@ h1, h2, h3, h4, h5, .nav-link {
     width: 370px;
   }
 
-  /* SLIDESHOW */
-  .carousel-caption {
-    position: absolute;
-    bottom: 167px;
-    z-index: 10;
-    padding: 20px;
-    color: #fff;
-    text-align: left;
-    background-color: rgba(0, 0, 0, 0.7686274509803922);
-    right: 55%;
-    left: 10%;
+  /*---------------- subheader ----------------------  p {
+    margin-top: 0;
+    margin-bottom: 1rem;   
+    #aboutTitle {
+    padding: 10px 0 35px;
+    border-bottom: 1px solid #355e82;*/
+
+  /*---------------- subheader ---------------------- */
+
+  #subheader {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    color: rgb(54, 94, 130);
   }
 
-  .slider-heading {
-    font-weight: 600;
+  .fa-home {
+    color: rgb(124, 122, 122);
   }
 
-  .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-  
-  #img-1 {
-    background-image:url(images/slider-1.jpg);
-    height:600px;
-    background-size:cover;
+  a#part1:hover {
+    text-decoration: none;
   }
 
-  #img-2 {
-    background-image:url(images/slider-2.jpg);
-    height:600px;
-    background-size:cover;
+  .fa-home:hover {
+    color: rgb(0, 0, 0);
   }
 
-  #img-3 {
-    background-image:url(images/slider-3.jpg);
-    height:600px;
-    background-size:cover;
+  #part2 {
+    color: rgb(53, 94, 130);
   }
 
-  .btn-secondary {
-    background-color: rgb(6, 88, 140);;
-    border-color: rgb(6, 88, 140);;
+  #part2:hover {
+    font-weight: bold;
+    text-decoration: none;
   }
 
-  .btn-secondary:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
+  #subheader p {
+    margin: 0;
+    margin-bottom: 1rem;   
   }
 
-  /* ABOUT  */
+  #aboutTitle {
+    padding: 0 0 35px;
+    border-bottom: 1px solid rgb(53, 94, 130);
+  }
+
+   /* ABOUT  */
   #about.section {
-    padding-top: 100px;
-    padding-bottom: 100px; 
-    background-color: rgba(248,249,250,1);
+    padding-top: 35px;
+    padding-bottom: 50px; 
   }
 
-  #about-button {
-    background-color: rgb(6, 88, 140);
-    border-color: rgb(6, 88, 140);
-    padding: 0.4rem 5rem;
-  }
-  
-  #about-button:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
+  #about-text {
+    margin-top: 10px;
   }
 
   #about-img-first {
     width: 100%;
   } 
 
-  #about-div-second, #about-div-third {
-    padding: 0;
+  .aboutImage {
+    padding-top: 150px;
+    padding-bottom: 350px;   
+    background-image: linear-gradient(rgba(112, 168, 229, 0.2), rgb(50, 94, 141)), url(images/about-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
   }
 
-  #about-text h1 {
+  .aboutImage div {
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    left: 20%; 
+  }
+
+  .aboutImage h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .aboutImage p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+
+  #article-title {
+    margin-top: 30px;
     font-weight: 600;
   }
 
@@ -201,33 +201,31 @@ h1, h2, h3, h4, h5, .nav-link {
   .section#blog {
     padding-top: 100px;
     padding-bottom: 35px;
-    background-color: rgb(50, 94, 141);
-    color:#fff;
+    background-color: rgba(0, 0, 0, 0.05);
   }
 
   .img-fluid {
     height: 225px;
   }
 
-  img.img-fluid:hover {
+  .img-fluid:hover {
     opacity: 0.6;
   }
 
-  #blog-header {
+  #blog {
     padding-bottom: 25px;
-    font-weight: 600;    
   }
 
   .blog-title {
     margin-top: 15px;
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-weight: 600;
+
   }
 
   hr {
     width: 120px;
     margin-left: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(174, 174, 174);
   }
 
   .blog-text {
@@ -235,51 +233,21 @@ h1, h2, h3, h4, h5, .nav-link {
   }
 
   #blog-button {
-    background-color: rgb(39, 40, 44);
-    border-color: rgb(39, 40, 44);
+    background-color: rgb(50, 94, 141);
+    border-color: rgb(50, 94, 141);
     padding: 0.4rem 7rem;
     margin-bottom: 25px;
+    color: #fff;
   }
 
   #blog-button:hover {
-    background-color: rgb(248, 249, 250);
-    border-color:rgb(248, 249, 250);
-    color: rgb(39, 40, 44);
-  }
-
-  /* MEDIA */   
-  .socialmedia {
-    padding-top: 80px;
-    padding-bottom: 100px;   
-    background-image: linear-gradient(rgb(50, 94, 141), rgba(157, 198, 241, 0.2)), url(images/media.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color:#fff;
-  }
-
-  #icons.fa {
-    font-size: 4.5rem;
-    margin-bottom: 150px;
-    color: white;
-    transition: 0.6s;
-  }
-
-  #icons.fa:hover {
-    /* color:rgba(76, 102, 187, 0.99);  */
-    color: rgb(0, 40, 77);
-    transform-origin: center;
-    transform: scale(1.2, 1.2);
-  }
-
-  #contact-header {
-    font-weight: 600;
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   /* FOOTER */ 
   #footer {
     background-color: rgb(0,0,0);
-    /* rgba(248,249,250,1); */
     padding-bottom: 100px;
     padding-top: 100px;
   }
@@ -322,7 +290,7 @@ h1, h2, h3, h4, h5, .nav-link {
   }
 
   #footer-icons.fa:hover {
-    color:rgba(109, 131, 160, 0.99); 
+    color:rgba(109, 131, 160, 0.99);
   }
 
   .footer-links {
@@ -365,14 +333,14 @@ h1, h2, h3, h4, h5, .nav-link {
   #top-icons {
     text-align: right;
   }
-
+  
   #top-text {
     margin-bottom: 0px;
     color:#fff;
   }
 
   .header-icons{
-    color:#fff;
+    color:rgb(255, 255, 255);
     text-decoration: none;
     padding: 0 9px;
     text-align: right;
@@ -388,6 +356,7 @@ h1, h2, h3, h4, h5, .nav-link {
   .navbar {
     padding-top: 20px;
     padding-bottom: 20px;
+    box-shadow: rgba(14, 16, 62, 0.28);
   }
 
   .nav-link {
@@ -399,72 +368,52 @@ h1, h2, h3, h4, h5, .nav-link {
     width: 370px;
   }
 
-  /* SLIDESHOW */
-  .carousel-caption {
-    position: absolute;
-    bottom: 167px;
-    z-index: 10;
-    padding: 20px;
-    color: #fff;
-    text-align: left;
-    background-color: rgba(0, 0, 0, 0.7686274509803922);
-    right: 50%;
-    left: 10%;
+  #subheader {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    color: rgb(54, 94, 130);
   }
 
-  .slider-heading {
-    font-weight: 600;
+  .fa-home {
+    color: rgb(124, 122, 122);
   }
 
-  .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-  
-  #img-1 {
-    background-image:url(images/slider-1.jpg);
-    height:600px;
-    background-size:cover;
+  a#part1:hover {
+    text-decoration: none;
   }
 
-  #img-2 {
-    background-image:url(images/slider-2.jpg);
-    height:600px;
-    background-size:cover;
+  .fa-home:hover {
+    color: rgb(0, 0, 0);
   }
 
-  #img-3 {
-    background-image:url(images/slider-3.jpg);
-    height:600px;
-    background-size:cover;
+  #part2 {
+    color: rgb(53, 94, 130);
   }
 
-  .btn-secondary {
-    background-color: rgb(6, 88, 140);;
-    border-color: rgb(6, 88, 140);;
+  #part2:hover {
+    font-weight: bold;
+    text-decoration: none;
   }
 
-  .btn-secondary:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
+  #subheader p {
+    margin: 0;
+    margin-bottom: 1rem;   
   }
 
-  /* ABOUT  */
+  #aboutTitle {
+    padding: 0 0 35px;
+    border-bottom: 1px solid rgb(53, 94, 130);
+  }
+
+    /* ABOUT  */
   #about.section {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: rgba(248,249,250,1);
+    padding-top: 35px;
+    padding-bottom: 50px; 
   }
 
-  #about-button {
-    background-color: rgb(6, 88, 140);
-    border-color: rgb(6, 88, 140);
-    padding: 0.4rem 5rem;
-  }
-  
-  #about-button:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
+  #about-text {
+    margin-top: 10px;
   }
 
   #about-img-first {
@@ -475,43 +424,67 @@ h1, h2, h3, h4, h5, .nav-link {
     padding: 0;
   }
 
-  #about-text h1 {
+  .aboutImage {
+    padding-top: 150px;
+    padding-bottom: 350px;   
+    background-image: linear-gradient(rgba(112, 168, 229, 0.2), rgb(50, 94, 141)), url(images/about-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+  }
+
+  .aboutImage div {
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    left: 20%; 
+  }
+
+  .aboutImage h3 {
+    font-size: 2.5rem;
     font-weight: 600;
   }
 
-  /* SOCIAL MEDIA */
+  .aboutImage p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+
+  #article-title {
+    margin-top: 30px;
+    font-weight: 600;
+  }
+
 
   /* BLOG */
   .section#blog{
     padding-top: 100px;
     padding-bottom: 30px;
-    background-color: rgb(50, 94, 141);
-    color:#fff;
+    background-color: rgba(0, 0, 0, 0.05);
   }
 
   .img-fluid {
     height: 190px;
   }
 
-  img.img-fluid:hover {
+  .img-fluid:hover {
     opacity: 0.6;
   }
 
-  #blog-header {
+  #blog {
     padding-bottom: 25px;
-    font-weight: 600;
   }
 
   .blog-title {
     margin-top: 15px;
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-weight: 600;
   }
 
   hr {
     width: 120px;
     margin-left: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(174, 174, 174);
   }
 
   .blog-text {
@@ -519,50 +492,21 @@ h1, h2, h3, h4, h5, .nav-link {
   }
 
   #blog-button {
-    background-color: rgb(39, 40, 44);;
-    border-color: rgb(39, 40, 44);;
+    background-color: rgb(50, 94, 141);;
+    border-color: rgb(50, 94, 141);;
     padding: 0.3rem 6rem;
     margin-bottom: 25px;
+    color: #fff;
   }
 
   #blog-button:hover {
-    background-color: rgb(248, 249, 250);
-    border-color:rgb(248, 249, 250);
-    color: rgb(39, 40, 44);
-  }
-
-  /* MEDIA */
-  .socialmedia {
-    padding-top: 80px;
-    padding-bottom: 100px;
-    background-image: linear-gradient(rgb(50, 94, 141), rgba(157, 198, 241, 0.2)), url(images/media.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color:#fff;
-  }
-
-  #icons.fa {
-    font-size: 4.5rem;
-    margin-bottom: 150px;
-    color: white;
-    transition: 0.6s;
-  }
-
-  #icons.fa:hover {
-    color: rgb(0, 40, 77); 
-    transform-origin: center;
-    transform: scale(1.2, 1.2);
-  }
-
-  #contact-header {
-    font-weight: 600;
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   /* FOOTER */
   #footer {
     background-color: rgb(0,0,0);
-    /* rgba(248,249,250,1); */
     padding-bottom: 100px;
     padding-top: 100px;
   }
@@ -647,14 +591,14 @@ h1, h2, h3, h4, h5, .nav-link {
   #top-icons {
     text-align: right;
   }
-
+  
   #top-text {
     margin-bottom: 0px;
     color:#fff;
   }
 
   .header-icons{
-    color:#fff;
+    color:rgb(255, 255, 255);
     text-decoration: none;
     padding: 0 9px;
     text-align: right;
@@ -670,6 +614,7 @@ h1, h2, h3, h4, h5, .nav-link {
   .navbar {
     padding-top: 20px;
     padding-bottom: 20px;
+    box-shadow: rgba(14, 16, 62, 0.28);
   }
 
   .nav-link {
@@ -681,98 +626,100 @@ h1, h2, h3, h4, h5, .nav-link {
     width: 370px;
   }
 
-  /* SLIDESHOW */
-  .carousel-caption {
-    position: absolute;
-    bottom: 167px;
-    z-index: 10;
-    padding: 20px;
-    color: #fff;
-    text-align: left;
-    background-color: rgba(0, 0, 0, 0.7686274509803922);
-    right: 40%;
-    left: 10%;
+  #subheader {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    color: rgb(54, 94, 130);
   }
 
-  .slider-heading {
-    font-weight: 600;
+  .fa-home {
+    color: rgb(124, 122, 122);
   }
 
-  .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-  
-  #img-1 {
-    background-image:url(images/slider-1.jpg);
-    height:600px;
-    background-size:cover;
+  a#part1:hover {
+    text-decoration: none;
   }
 
-  #img-2 {
-    background-image:url(images/slider-2.jpg);
-    height:600px;
-    background-size:cover;
+  .fa-home:hover {
+    color: rgb(0, 0, 0);
   }
 
-  #img-3 {
-    background-image:url(images/slider-3.jpg);
-    height:600px;
-    background-size:cover;
+  #part2 {
+    color: rgb(53, 94, 130);
   }
 
-  .btn-secondary {
-    background-color: rgb(6, 88, 140);;
-    border-color: rgb(6, 88, 140);;
+  #part2:hover {
+    font-weight: bold;
+    text-decoration: none;
   }
 
-  .btn-secondary:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
+  #subheader p {
+    margin: 0;
+    margin-bottom: 1rem;   
   }
 
-  /* ABOUT  */
+  #aboutTitle {
+    padding: 0 0 35px;
+    border-bottom: 1px solid rgb(53, 94, 130);
+  }
+
+    /* ABOUT  */
   #about.section {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: rgba(248,249,250,1)
-  }
-
-  #about-text h1 {
-    font-weight: 600;
+    padding-top: 35px;
+    padding-bottom: 50px; 
   }
 
   #about-text {
-    text-align: center;
     margin-top: 50px;
   }
 
-  #about-button {
-    background-color: rgb(6, 88, 140);
-    border-color: rgb(6, 88, 140);
-    padding: .5rem 7rem;
-  }
-  
-  #about-button:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
-  }
- 
   #about-img-first {
     width: 100%;
-  }  
+  } 
 
   #about-div-second, #about-div-third {
     padding: 0;
   }
 
+  .aboutImage {
+    padding-top: 150px;
+    padding-bottom: 350px;   
+    background-image: linear-gradient(rgba(112, 168, 229, 0.2), rgb(50, 94, 141)), url(images/about-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+  }
+
+  .aboutImage div {
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    left: 20%; 
+  }
+
+  .aboutImage h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .aboutImage p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+
+  #article-title {
+    margin-top: 30px;
+    font-weight: 600;
+  }
+
+
   /* BLOG */
   .section#blog{
     padding-top: 100px;
     padding-bottom: 30px;
-    background-color: rgb(50, 94, 141);
-    text-align: center;
-    color:#fff;
+    background-color: rgba(0, 0, 0, 0.05);
   }
 
   .img-fluid {
@@ -780,25 +727,23 @@ h1, h2, h3, h4, h5, .nav-link {
     height: 320px;
   }
 
-  img.img-fluid:hover {
+  .img-fluid:hover {
     opacity: 0.6;
   }
 
-  #blog-header {
+  #blog {
     padding-bottom: 25px;
     text-align: center;
-    font-weight: 600;
   }
 
   .blog-title {
     margin-top: 15px;
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-weight: 600;
   }
 
   hr {
     width: 120px;
-    background-color: rgb(255, 255, 255);    
+    background-color: rgb(174, 174, 174);    
   }
 
   .blog-text {
@@ -806,44 +751,16 @@ h1, h2, h3, h4, h5, .nav-link {
   }
 
   #blog-button {
-    background-color: rgb(39, 40, 44);;
-    border-color: rgb(39, 40, 44);;
+    background-color: rgb(50, 94, 141);;
+    border-color: rgb(50, 94, 141);;
     padding: .375rem 8rem;
     margin-bottom: 25px;
+    color: #fff;
   }
 
   #blog-button:hover {
-    background-color: rgb(248, 249, 250);
-    border-color:rgb(248, 249, 250);
-    color: rgb(39, 40, 44);
-  }
-
-  /* MEDIA */
-  .socialmedia {
-    padding-top: 80px;
-    padding-bottom: 100px;
-    background-image: linear-gradient(rgb(50, 94, 141), rgba(157, 198, 241, 0.2)), url(images/media.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color:#fff;
-  }
-
-  #icons.fa {
-    font-size: 4.5rem;
-    margin-bottom: 150px;
-    color: white;
-    transition: 0.6s;
-  }
-
-  #icons.fa:hover {
-    color: rgb(0, 40, 77); 
-    transform-origin: center;
-    transform: scale(1.2, 1.2);
-  }
-
-  #contact-header {
-    font-weight: 600;
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   /* FOOTER */
@@ -930,17 +847,22 @@ h1, h2, h3, h4, h5, .nav-link {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-   /* Social Media Links Top */  
-   .socialmedia-container {
+  /* Social Media Links Top */  
+  .socialmedia-container {
     background-color:  #355e82;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
     font-size: 1.1rem;
   }
+  
+  #top-text {
+    margin-bottom: 0px;
+    color:#fff;
+  }
 
   .header-icons{
-    color:#fff;
+    color:rgb(255, 255, 255);
     text-decoration: none;
     padding: 0 9px;
     text-align: right;
@@ -952,15 +874,11 @@ h1, h2, h3, h4, h5, .nav-link {
     color: rgb(0, 40, 77);
   }
 
-  #top-text {
-    margin-bottom: 0px;
-    color:#fff;
-  }
-
   /* Navbar */
   .navbar {
     padding-top: 20px;
     padding-bottom: 20px;
+    box-shadow: rgba(14, 16, 62, 0.28);
   }
 
   .nav-link {
@@ -972,81 +890,52 @@ h1, h2, h3, h4, h5, .nav-link {
     width: 370px;
   }
 
-  /* SLIDESHOW */
-  .carousel-caption {
-    position: absolute;
-    bottom: 167px;
-    z-index: 10;
-    padding: 20px;
-    color: #fff;
-    text-align: left;
-    background-color: rgba(0, 0, 0, 0.7686274509803922);
-    right: 30%;
-    left: 10%;
+  #subheader {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    color: rgb(54, 94, 130);
   }
 
-  .slider-heading {
-    font-weight: 600;
+  .fa-home {
+    color: rgb(124, 122, 122);
   }
 
-  .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-  
-  #img-1 {
-    background-image:url(images/slider-1.jpg);
-    height:600px;
-    background-size:cover;
+  a#part1:hover {
+    text-decoration: none;
   }
 
-  #img-2 {
-    background-image:url(images/slider-2.jpg);
-    height:600px;
-    background-size:cover;
+  .fa-home:hover {
+    color: rgb(0, 0, 0);
   }
 
-  #img-3 {
-    background-image:url(images/slider-3.jpg);
-    height:600px;
-    background-size:cover;
+  #part2 {
+    color: rgb(53, 94, 130);
   }
 
-  .btn-secondary {
-    background-color: rgb(6, 88, 140);;
-    border-color: rgb(6, 88, 140);;
+  #part2:hover {
+    font-weight: bold;
+    text-decoration: none;
   }
 
-  .btn-secondary:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
+  #subheader p {
+    margin: 0;
+    margin-bottom: 1rem;   
+  }
+
+  #aboutTitle {
+    padding: 0 0 35px;
+    border-bottom: 1px solid rgb(53, 94, 130);
   }
 
   /* ABOUT  */
   #about.section {
-    padding-top: 100px;
-    padding-bottom: 100px; 
-    background-color: rgba(248,249,250,1);
-  }
-
-  #about-text h1 {
-    font-weight: 600;
+    padding-top: 35px;
+    padding-bottom: 50px; 
   }
 
   #about-text {
-    text-align: center;
     margin-top: 50px;
-  }
-
-  #about-button {
-    background-color: rgb(6, 88, 140);
-    border-color: rgb(6, 88, 140);
-    padding: .5rem 7rem;
-  }
-  
-  #about-button:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
   }
 
   #about-img-first {
@@ -1057,13 +946,44 @@ h1, h2, h3, h4, h5, .nav-link {
     padding: 0;
   }
 
+  .aboutImage {
+    padding-top: 150px;
+    padding-bottom: 350px;   
+    background-image: linear-gradient(rgba(112, 168, 229, 0.2), rgb(50, 94, 141)), url(images/about-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+  }
+
+  .aboutImage div {
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    left: 20%; 
+  }
+
+  .aboutImage h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .aboutImage p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+
+  #article-title {
+    margin-top: 30px;
+    font-weight: 600;
+  }
+
+
   /* BLOG */
   .section#blog{
     padding-top: 100px;
     padding-bottom: 30px;
-    background-color: rgb(50, 94, 141);
-    text-align: center;
-    color:#fff;
+    background-color: rgba(0, 0, 0, 0.05);
   }
 
   .img-fluid {
@@ -1071,75 +991,40 @@ h1, h2, h3, h4, h5, .nav-link {
     height: 320px;
   }
 
-  img.img-fluid:hover {
+  .img-fluid:hover {
     opacity: 0.6;
-  }
-
-  #blog-header {
-    padding-bottom: 25px;
-    font-weight: 600;
   }
 
   #blog {
     padding-bottom: 25px;
+    text-align: center;
   }
 
   .blog-title {
     margin-top: 15px;
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-weight: 600;
   }
 
   hr {
     width: 120px;
-    background-color: rgb(255, 255, 255);    
-    text-align: left;
+    background-color: rgb(174, 174, 174);    
   }
 
   .blog-text {
-    padding: 15px 0 0;
+    padding: 15px 15px 0;
   }
 
   #blog-button {
-    background-color: rgb(39, 40, 44);
-    border-color: rgb(39, 40, 44);
+    background-color: rgb(50, 94, 141);
+    border-color: rgb(50, 94, 141);
     padding: .375rem 8rem;
     margin-bottom: 20px;
-    text-align: center;
+    color: #fff;
   }
 
   #blog-button:hover {
-    background-color: rgb(248, 249, 250);
-    border-color:rgb(248, 249, 250);
-    color: rgb(39, 40, 44);
-  }
-
-  /* MEDIA */
-  .socialmedia {
-    padding-top: 80px;
-    padding-bottom: 100px;
-    background-image: linear-gradient(rgb(50, 94, 141), rgba(157, 198, 241, 0.2)), url(images/media.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color:#fff;
-  }
-
-  #icons.fa {
-    font-size: 4.5rem;
-    margin-bottom: 150px;
-    color: white;
-    transition: 0.6s;
-  }
-
-  #icons.fa:hover {
-    color: rgb(0, 40, 77); 
-    transform-origin: center;
-    transform: scale(1.2, 1.2);
-  }
-
-  #contact-header {
-    font-weight: 600;
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   /* FOOTER */
@@ -1234,14 +1119,14 @@ h1, h2, h3, h4, h5, .nav-link {
     text-align: center;
     font-size: 1.1rem;
   }
-
+  
   #top-text {
     margin-bottom: 0px;
     color:#fff;
   }
 
   .header-icons{
-    color:#fff;
+    color:rgb(255, 255, 255);
     text-decoration: none;
     padding: 0 9px;
     text-align: right;
@@ -1257,103 +1142,64 @@ h1, h2, h3, h4, h5, .nav-link {
   .navbar {
     padding-top: 20px;
     padding-bottom: 20px;
+    box-shadow: rgba(14, 16, 62, 0.28);
   }
 
   .nav-link {
     font-size: 1.3rem;
     color: black;
   }
-
-  .navbar-brand {
-    width: 200px;
-  }
-
-  /* SLIDESHOW */
-  .carousel-caption {
-    position: absolute;
-    /* max-width: 250px; */
-    bottom: 200px;
-    z-index: 10;
-    padding: 20px;
-    color: #fff;
-    text-align: left;
-    background-color: rgba(0, 0, 0, 0.7686274509803922);
-    right: 20%;
-    left: 20%;
-  }
-
-  .slider-heading {
-    font-weight: 600;
-  }
-
-  .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
   
-  .slider-text {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    line-height: 20px; 
-    max-height: 60px;
+  .navbar-brand {
+    width: 370px;
   }
 
-  #img-1 {
-    background-image:url(images/slider-1.jpg);
-    height:600px;
-    background-size:cover;
+  #subheader {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    color: rgb(54, 94, 130);
   }
 
-  #img-2 {
-    background-image:url(images/slider-2.jpg);
-    height:600px;
-    background-size:cover;
+  .fa-home {
+    color: rgb(124, 122, 122);
   }
 
-  #img-3 {
-    background-image:url(images/slider-3.jpg);
-    height:600px;
-    background-size:cover;
+  a#part1:hover {
+    text-decoration: none;
   }
 
-  .btn-secondary {
-    background-color: rgb(6, 88, 140);;
-    border-color: rgb(6, 88, 140);;
-    display: block;
-    margin: 7px 0;
-    padding: 10 25px;
+  .fa-home:hover {
+    color: rgb(0, 0, 0);
   }
 
-  .btn-secondary:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
+  #part2 {
+    color: rgb(53, 94, 130);
+  }
+
+  #part2:hover {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  #subheader p {
+    margin: 0;
+    margin-bottom: 1rem;   
+  }
+
+  #aboutTitle {
+    padding: 0 0 35px;
+    border-bottom: 1px solid rgb(53, 94, 130);
   }
 
   /* ABOUT  */
   #about.section {
-    padding-top: 100px;
-    padding-bottom: 100px; 
-    background-color: rgb(249, 250, 251);
-  }
-
-  #about-text h1 {
-    font-weight: 600;
+    padding-top: 80px;
+    padding-bottom: 50px; 
   }
 
   #about-text {
-    text-align: center;
     margin-top: 50px;
-  }
-
-  #about-button {
-    background-color: rgb(6, 88, 140);
-    border-color: rgb(6, 88, 140);
-    padding: .5rem 7rem;
-  }
-  
-  #about-button:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
   }
 
   #about-img-first {
@@ -1364,12 +1210,42 @@ h1, h2, h3, h4, h5, .nav-link {
     padding: 0;
   }
 
-   /* BLOG */
+  .aboutImage {
+    padding-top: 150px;
+    padding-bottom: 350px;   
+    background-image: linear-gradient(rgba(112, 168, 229, 0.2), rgb(50, 94, 141)), url(images/about-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+  }
+
+  .aboutImage div {
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    left: 20%; 
+  }
+
+  .aboutImage h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .aboutImage p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+
+  #article-title {
+    margin-top: 30px;
+    font-weight: 600;
+  }
+
+  /* BLOG */
   .section#blog{
     padding-top: 100px;
-    background-color: rgb(50, 94, 141);
-    text-align: center;
-    color:#fff;
+    background-color: rgba(0, 0, 0, 0.05);
   }
 
   .img-fluid {
@@ -1377,28 +1253,23 @@ h1, h2, h3, h4, h5, .nav-link {
     height: 280px;
   }
 
-  img.img-fluid:hover {
+  .img-fluid:hover {
     opacity: 0.6;
-  }
-
-  #blog-header {
-    padding-bottom: 25px;
-    font-weight: 600;
   }
 
   #blog {
     padding-bottom: 25px;
+    text-align: center;
   }
 
   .blog-title {
     margin-top: 15px;
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-weight: 600;
   }
 
   hr {
     width: 120px;
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(174, 174, 174);    
   }
 
   .blog-text {
@@ -1406,44 +1277,16 @@ h1, h2, h3, h4, h5, .nav-link {
   }
 
   #blog-button {
-    background-color: rgb(39, 40, 44);
-    border-color: rgb(39, 40, 44);
+    background-color: rgb(50, 94, 141);
+    border-color: rgb(50, 94, 141);
     padding: .375rem 6rem;
     margin-bottom: 20px;
+    color: #fff;
   }
 
   #blog-button:hover {
-    background-color: rgb(248, 249, 250);
-    border-color:rgb(248, 249, 250);
-    color: rgb(39, 40, 44);
-  }
-
-  /* MEDIA */
-  .socialmedia {
-    padding-top: 55px;
-    padding-bottom: 100px;
-    background-image: linear-gradient(rgb(50, 94, 141), rgba(157, 198, 241, 0.2)), url(images/media.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color:#fff;
-  }
-
-  #icons.fa {
-    font-size: 4.5rem;
-    margin-bottom: 150px;
-    color: white;
-    transition: 0.6s;
-  }
-
-  #icons.fa:hover {
-    color: rgb(0, 40, 77);
-    transform-origin: center;
-    transform: scale(1.2, 1.2);
-  }
-
-  #contact-header {
-    font-weight: 600;
+    background-color: rgb(65, 112, 142);
+    border-color:rgb(65, 112, 142);
   }
 
   /* FOOTER */
@@ -1477,14 +1320,17 @@ h1, h2, h3, h4, h5, .nav-link {
     color: rgba(76, 102, 187, 0.99); 
   }
 
-
   #links {
     text-align: center;
     margin-bottom: 25px;
   }
-  
+
   #links a:hover {
-    color: rgba(109, 131, 160, 0.99);
+    color:rgba(109, 131, 160, 0.99);
+  }
+
+  #footer-icons.fa:hover {
+    color:rgba(109, 131, 160, 0.99);
   }
 
   #media {
