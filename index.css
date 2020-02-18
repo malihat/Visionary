@@ -220,8 +220,9 @@ h1, h2, h3, h4, h5, .nav-link {
 
   .blog-title {
     margin-top: 15px;
-    font-size: 1.4rem;
-    font-weight: 700;
+    height: 56px;
+    /* font-size: 1.4rem; */
+    font-weight: 600;
   }
 
   hr {
@@ -503,8 +504,9 @@ h1, h2, h3, h4, h5, .nav-link {
   }
 
   .blog-title {
-    margin-top: 15px;
-    font-size: 1.4rem;
+    margin-top: 15px;    
+    height: 56px;
+    /* font-size: 1.4rem; */
     font-weight: 700;
   }
 
@@ -792,7 +794,8 @@ h1, h2, h3, h4, h5, .nav-link {
 
   .blog-title {
     margin-top: 15px;
-    font-size: 1.4rem;
+    height: 56px;
+    /* font-size: 1.4rem; */
     font-weight: 700;
   }
 
@@ -1086,7 +1089,8 @@ h1, h2, h3, h4, h5, .nav-link {
 
   .blog-title {
     margin-top: 15px;
-    font-size: 1.4rem;
+    height: 56px;
+    /* font-size: 1.4rem; */
     font-weight: 700;
   }
 
@@ -1392,7 +1396,8 @@ h1, h2, h3, h4, h5, .nav-link {
 
   .blog-title {
     margin-top: 15px;
-    font-size: 1.4rem;
+    height: 56px;
+    /* font-size: 1.4rem; */
     font-weight: 700;
   }
 

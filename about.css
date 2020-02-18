@@ -52,7 +52,7 @@ p,a {
   /* font-family: 'Open Sans', sans-serif; */
 }
 
-h1, h2, h3, .nav-link {
+h1, h2, h3, h4, .nav-link {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -219,7 +219,7 @@ h1, h2, h3, .nav-link {
   .blog-title {
     margin-top: 15px;
     font-weight: 600;
-
+    height: 56px;
   }
 
   hr {
@@ -739,6 +739,7 @@ h1, h2, h3, .nav-link {
   .blog-title {
     margin-top: 15px;
     font-weight: 600;
+    height: 56px;
   }
 
   hr {
@@ -1003,6 +1004,7 @@ h1, h2, h3, .nav-link {
   .blog-title {
     margin-top: 15px;
     font-weight: 600;
+    height: 56px;
   }
 
   hr {
@@ -1265,6 +1267,7 @@ h1, h2, h3, .nav-link {
   .blog-title {
     margin-top: 15px;
     font-weight: 600;
+    height: 56px;
   }
 
   hr {
