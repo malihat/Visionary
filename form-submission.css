@@ -107,6 +107,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #youtube:hover {
+    background: #700404;
   }
   
   #instagram {
@@ -117,6 +122,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #instagram:hover {
+    background: #0a324e;
   }
 
   #facebook {
@@ -127,6 +137,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #facebook:hover {
+    background: rgb(12, 37, 90);
   }
   
   #twitter {
@@ -137,6 +152,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #twitter:hover {
+    background: rgb(29, 113, 177);
   }
 
   #share {
@@ -303,6 +323,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #youtube:hover {
+    background: #700404;
   }
   
   #instagram {
@@ -313,6 +338,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #instagram:hover {
+    background: #0a324e;
   }
 
   #facebook {
@@ -323,6 +353,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #facebook:hover {
+    background: rgb(12, 37, 90);
   }
   
   #twitter {
@@ -333,6 +368,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #twitter:hover {
+    background: rgb(29, 113, 177);
   }
 
   #share {
@@ -498,6 +538,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #youtube:hover {
+    background: #700404;
   }
   
   #instagram {
@@ -508,6 +553,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #instagram:hover {
+    background: #0a324e;
   }
 
   #facebook {
@@ -518,6 +568,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #facebook:hover {
+    background: rgb(12, 37, 90);
   }
   
   #twitter {
@@ -528,6 +583,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #twitter:hover {
+    background: rgb(29, 113, 177);
   }
 
   #share {
@@ -702,6 +762,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #youtube:hover {
+    background: #700404;
   }
   
   #instagram {
@@ -712,6 +777,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #instagram:hover {
+    background: #0a324e;
   }
 
   #facebook {
@@ -722,6 +792,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #facebook:hover {
+    background: rgb(12, 37, 90);
   }
   
   #twitter {
@@ -732,6 +807,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
+    transition: 1s all;
+  }
+
+  #twitter:hover {
+    background: rgb(29, 113, 177);
   }
 
   #share {
@@ -907,7 +987,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
-    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #youtube:hover {
+    background: #700404;
   }
   
   #instagram {
@@ -918,7 +1002,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
-    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #instagram:hover {
+    background: #0a324e;
   }
 
   #facebook {
@@ -929,7 +1017,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
-    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #facebook:hover {
+    background: rgb(12, 37, 90);
   }
   
   #twitter {
@@ -940,7 +1032,11 @@ h1, h2, h3, .nav-link {
     text-decoration: none;
     padding: 4px;
     margin-right: 8px;
-    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #twitter:hover {
+    background: rgb(29, 113, 177);
   }
 
   #share {

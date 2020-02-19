@@ -90,18 +90,18 @@
             <div class="row"> 
               <div class="col-lg-6 col-md-6 col-sm-12" id="fname">
                 <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="First Name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  <input type="text" class="form-control" placeholder="First Name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
                 </div>
               </div>
 
               <div class="col-lg-6 col-md-6 col-sm-12" id="lname">
                 <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="Last Name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  <input type="text" class="form-control" placeholder="Last Name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
                 </div>
               </div>
             </div>
             <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              <input type="email" class="form-control" placeholder="Email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
             </div>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
             <a id="submit-btn" class="btn btn-primary"> Submit </a>
@@ -208,13 +208,15 @@
           <div class="col-lg-4 col-md-12 col-sm-12 ">
             <h4 id="newsletter"> Newsletter Subscription </h4>
             <!-- <input type="text" >  -->
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-            </div>
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-            </div>
-            <a id="subscribe-btn" class="btn btn-primary"> Subscribe </a>
+            <form>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+              </div>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+              </div>
+              <a id="subscribe-btn" class="btn btn-primary"> Subscribe </a>
+            </form>
           </div>
         </div>
       </div>

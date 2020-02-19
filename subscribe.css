@@ -11,36 +11,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Scroll Top */
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 35px;
-  right: 10px;
-  font-size: 28px;
-  z-index: 99;
-  border: none;
-  border-radius: 3.3rem;
-  outline: none;
-  background-color: rgba(254, 201, 87, 0);
-  color: #b3b8c0;
-  cursor: pointer;
-}
-
-/* #myBtn:hover {
-  background-color: rgba(254, 201, 87, 0);
-} */
-
-.fa-angle-up {
-  color: rgba(40, 40, 41, 0.829);
-  height: 60px;
-  width: 60px;
-  background-color: rgba(198, 198, 200, 0.55);
-  border-radius: 50%;
-  display: inline-block;
-}
-
-
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.16);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
@@ -48,14 +18,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
 
 p,a {
   font-family: sans-serif;
-  /* font-family: 'helvetica'; */
-  /* font-family: 'Open Sans', sans-serif; */
 }
 
-h1, h2, h3, h4, .nav-link {
+h1, h2, h3, .nav-link {
   font-family: 'Raleway', sans-serif;
 }
-
 
 @media (min-width: 1200px) {
   /* Social Media Links Top */  
@@ -104,146 +71,94 @@ h1, h2, h3, h4, .nav-link {
     width: 370px;
   }
 
-  /*---------------- subheader ----------------------  p {
-    margin-top: 0;
-    margin-bottom: 1rem;   
-    #aboutTitle {
-    padding: 10px 0 35px;
-    border-bottom: 1px solid #355e82;*/
-
-  /*---------------- subheader ---------------------- */
-
-  #subheader {
+  .thankyou-page {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 20px;
-    color: rgb(54, 94, 130);
-  }
-
-  .fa-home {
-    color: rgb(124, 122, 122);
-  }
-
-  a#part1:hover {
-    text-decoration: none;
-  }
-
-  .fa-home:hover {
-    color: rgb(0, 0, 0);
-  }
-
-  #part2 {
-    color: rgb(53, 94, 130);
-  }
-
-  #part2:hover {
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  #subheader p {
-    margin: 0;
-    margin-bottom: 1rem;   
-  }
-
-  #aboutTitle {
-    padding: 0 0 35px;
-    border-bottom: 1px solid rgb(53, 94, 130);
-  }
-
-   /* ABOUT  */
-  #about.section {
-    padding-top: 35px;
-    padding-bottom: 50px; 
-  }
-
-  #about-text {
-    margin-top: 10px;
-  }
-
-  #about-img-first {
-    width: 100%;
-  } 
-
-  .aboutImage {
-    padding-top: 300px;
-    padding-bottom: 300px;   
-    background-image: linear-gradient(rgba(112, 168, 229, 0.2), rgb(50, 94, 141)), url(images/about-1.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(rgba(42, 80, 119, 0.82), rgba(12, 75, 129, 0.6)), url(images/form-submission.jpg);;
+    background-position: top;
+    background-size:cover;
     background-repeat: no-repeat;
-    color:#fff;
   }
 
-  .aboutImage div {
-    position: absolute;
-    width: 60%;
-    text-align: center;
-    left: 20%; 
-    /* top: 20%;    ???????????????????????????  */
+  #text-one {
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-size: 5rem;
+    font-weight: 700;
   }
 
-  .aboutImage h3 {
-    font-size: 2.5rem;
-    font-weight: 600;
-  }
-
-  .aboutImage p {
+  #text-second {
     font-size: 1.2rem;
-    font-style: italic;
   }
 
-  #article-title {
-    margin-top: 30px;
+  #youtube {
+    background: #bb0000;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #youtube:hover {
+    background: #700404;
+  }
+  
+  #instagram {
+    background: #125688;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #instagram:hover {
+    background: #0a324e;
+  }
+
+  #facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #facebook:hover {
+    background: rgb(12, 37, 90);
+  }
+  
+  #twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #twitter:hover {
+    background: rgb(29, 113, 177);
+  }
+
+  #share {
+    margin-top: 50px;
+    font-size: 1.5rem;
     font-weight: 600;
-  }
-
-  /* BLOG */
-  .section#blog {
-    padding-top: 100px;
-    padding-bottom: 35px;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-
-  .img-fluid {
-    height: 225px;
-  }
-
-  .img-fluid:hover {
-    opacity: 0.6;
-  }
-
-  #blog {
-    padding-bottom: 25px;
-  }
-
-  .blog-title {
-    margin-top: 15px;
-    font-weight: 600;
-    height: 56px;
-  }
-
-  hr {
-    width: 120px;
-    margin-left: 0;
-    background-color: rgb(174, 174, 174);
-  }
-
-  .blog-text {
-    padding-top: 15px;     
-  }
-
-  #blog-button {
-    background-color: rgb(50, 94, 141);
-    border-color: rgb(50, 94, 141);
-    padding: 0.4rem 7rem;
-    margin-bottom: 25px;
-    color: #fff;
-  }
-
-  #blog-button:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
   }
 
   /* FOOTER */ 
@@ -277,7 +192,7 @@ h1, h2, h3, h4, .nav-link {
   } 
 
   #links a:hover {
-    color: rgba(109, 131, 160, 0.99);
+    color:rgba(109, 131, 160, 0.99);
   }
 
   #media {
@@ -321,7 +236,6 @@ h1, h2, h3, h4, .nav-link {
     border-color: rgb(65, 112, 142);
   }
 }
-
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Social Media Links Top */  
   .socialmedia-container {
@@ -369,141 +283,100 @@ h1, h2, h3, h4, .nav-link {
     width: 370px;
   }
 
-  #subheader {
+  .thankyou-page {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 20px;
-    color: rgb(54, 94, 130);
-  }
-
-  .fa-home {
-    color: rgb(124, 122, 122);
-  }
-
-  a#part1:hover {
-    text-decoration: none;
-  }
-
-  .fa-home:hover {
-    color: rgb(0, 0, 0);
-  }
-
-  #part2 {
-    color: rgb(53, 94, 130);
-  }
-
-  #part2:hover {
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  #subheader p {
-    margin: 0;
-    margin-bottom: 1rem;   
-  }
-
-  #aboutTitle {
-    padding: 0 0 35px;
-    border-bottom: 1px solid rgb(53, 94, 130);
-  }
-
-    /* ABOUT  */
-  #about.section {
-    padding-top: 35px;
-    padding-bottom: 50px; 
-  }
-
-  #about-text {
-    margin-top: 10px;
-  }
-
-  #about-img-first {
-    width: 100%;
-  } 
-
-  #about-div-second, #about-div-third {
-    padding: 0;
-  }
-
-  .aboutImage {
-    padding-top: 250px;
-    padding-bottom: 250px;   
-    background-image: linear-gradient(rgba(112, 168, 229, 0.2), rgb(50, 94, 141)), url(images/about-1.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(rgba(42, 80, 119, 0.82), rgba(12, 75, 129, 0.6)), url(images/form-submission.jpg);;
+    background-position: top;
+    background-size:cover;
     background-repeat: no-repeat;
-    color:#fff;
   }
 
-  .aboutImage div {
-    position: absolute;
-    width: 60%;
-    text-align: center;
-    left: 20%; 
+  #letter {
+    width: 30%;
+    height: 40%;
+    margin-bottom: 15px;
+  }
+ 
+  #text-one {
+    margin-bottom: 0;
+    font-size: 5rem;
+    margin-top: 50px;
+    font-weight: 700;
   }
 
-  .aboutImage h3 {
-    font-size: 2.5rem;
-    font-weight: 600;
-  }
-
-  .aboutImage p {
+  #text-second {
     font-size: 1.2rem;
-    font-style: italic;
   }
 
-  #article-title {
-    margin-top: 30px;
+  #youtube {
+    background: #bb0000;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #youtube:hover {
+    background: #700404;
+  }
+  
+  #instagram {
+    background: #125688;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #instagram:hover {
+    background: #0a324e;
+  }
+
+  #facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #facebook:hover {
+    background: rgb(12, 37, 90);
+  }
+  
+  #twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #twitter:hover {
+    background: rgb(29, 113, 177);
+  }
+
+  #share {
+    margin-top: 50px;
+    font-size: 1.5rem;
     font-weight: 600;
-  }
-
-
-  /* BLOG */
-  .section#blog{
-    padding-top: 100px;
-    padding-bottom: 30px;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-
-  .img-fluid {
-    height: 190px;
-  }
-
-  .img-fluid:hover {
-    opacity: 0.6;
-  }
-
-  #blog {
-    padding-bottom: 25px;
-  }
-
-  .blog-title {
-    margin-top: 15px;
-    font-weight: 600;
-    height: 56px;
-  }
-
-  hr {
-    width: 120px;
-    margin-left: 0;
-    background-color: rgb(174, 174, 174);
-  }
-
-  .blog-text {
-    padding-top: 15px;     
-  }
-
-  #blog-button {
-    background-color: rgb(50, 94, 141);;
-    border-color: rgb(50, 94, 141);;
-    padding: 0.3rem 6rem;
-    margin-bottom: 25px;
-    color: #fff;
-  }
-
-  #blog-button:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
   }
 
   /* FOOTER */
@@ -537,7 +410,7 @@ h1, h2, h3, h4, .nav-link {
   }
 
   #links a:hover {
-    color: rgba(109, 131, 160, 0.99);
+    color:rgba(109, 131, 160, 0.99);
   }
 
   #media {
@@ -580,7 +453,6 @@ h1, h2, h3, h4, .nav-link {
     border-color: rgb(65, 112, 142);
   }
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
   /* Social Media Links Top */  
   .socialmedia-container {
@@ -628,142 +500,100 @@ h1, h2, h3, h4, .nav-link {
     width: 370px;
   }
 
-  #subheader {
+  .thankyou-page {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 20px;
-    color: rgb(54, 94, 130);
-  }
-
-  .fa-home {
-    color: rgb(124, 122, 122);
-  }
-
-  a#part1:hover {
-    text-decoration: none;
-  }
-
-  .fa-home:hover {
-    color: rgb(0, 0, 0);
-  }
-
-  #part2 {
-    color: rgb(53, 94, 130);
-  }
-
-  #part2:hover {
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  #subheader p {
-    margin: 0;
-    margin-bottom: 1rem;   
-  }
-
-  #aboutTitle {
-    padding: 0 0 35px;
-    border-bottom: 1px solid rgb(53, 94, 130);
-  }
-
-    /* ABOUT  */
-  #about.section {
-    padding-top: 35px;
-    padding-bottom: 50px; 
-  }
-
-  #about-text {
-    margin-top: 50px;
-  }
-
-  #about-img-first {
-    width: 100%;
-  } 
-
-  #about-div-second, #about-div-third {
-    padding: 0;
-  }
-
-  .aboutImage {
-    padding-top: 250px;
-    padding-bottom: 250px;   
-    background-image: linear-gradient(rgba(112, 168, 229, 0.2), rgb(50, 94, 141)), url(images/about-1.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(rgba(42, 80, 119, 0.82), rgba(12, 75, 129, 0.6)), url(images/form-submission.jpg);;
+    background-position: top;
+    background-size:cover;
     background-repeat: no-repeat;
-    color:#fff;
   }
 
-  .aboutImage div {
-    position: absolute;
-    width: 60%;
-    text-align: center;
-    left: 20%; 
+  #letter {
+    width: 37%;
+    height: 35%;
+    margin-bottom: 15px;
+  }
+ 
+  #text-one {
+    margin-bottom: 0;
+    font-size: 5rem;
+    margin-top: 50px;
+    font-weight: 700;
   }
 
-  .aboutImage h3 {
-    font-size: 2.5rem;
-    font-weight: 600;
-  }
-
-  .aboutImage p {
+  #text-second {
     font-size: 1.2rem;
-    font-style: italic;
   }
 
-  #article-title {
-    margin-top: 30px;
+  #youtube {
+    background: #bb0000;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #youtube:hover {
+    background: #700404;
+  }
+  
+  #instagram {
+    background: #125688;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #instagram:hover {
+    background: #0a324e;
+  }
+
+  #facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #facebook:hover {
+    background: rgb(12, 37, 90);
+  }
+  
+  #twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #twitter:hover {
+    background: rgb(29, 113, 177);
+  }
+
+  #share {
+    margin-top: 50px;
+    font-size: 1.5rem;
     font-weight: 600;
-  }
-
-
-  /* BLOG */
-  .section#blog{
-    padding-top: 100px;
-    padding-bottom: 30px;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-
-  .img-fluid {
-    width: 500px;
-    height: 320px;
-  }
-
-  .img-fluid:hover {
-    opacity: 0.6;
-  }
-
-  #blog {
-    padding-bottom: 25px;
-    text-align: center;
-  }
-
-  .blog-title {
-    margin-top: 15px;
-    font-weight: 600;
-    height: 56px;
-  }
-
-  hr {
-    width: 120px;
-    background-color: rgb(174, 174, 174);    
-  }
-
-  .blog-text {
-    padding: 15px 85px 0;
-  }
-
-  #blog-button {
-    background-color: rgb(50, 94, 141);;
-    border-color: rgb(50, 94, 141);;
-    padding: .375rem 8rem;
-    margin-bottom: 25px;
-    color: #fff;
-  }
-
-  #blog-button:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
   }
 
   /* FOOTER */
@@ -802,12 +632,12 @@ h1, h2, h3, h4, .nav-link {
     margin-bottom: 25px;
   }
 
-  #links a:hover {
-    color: rgba(109, 131, 160, 0.99);
-  }
-
   #media {
     margin-top: 30px;
+  }
+
+  #links a:hover {
+    color:rgba(109, 131, 160, 0.99);
   }
 
   a.icons {
@@ -848,20 +678,23 @@ h1, h2, h3, h4, .nav-link {
     border-color: rgb(65, 112, 142);
   }
 }
-
 @media (min-width: 576px) and (max-width: 767px) {
   /* Social Media Links Top */  
   .socialmedia-container {
     background-color:  #355e82;
     padding-top: 15px;
     padding-bottom: 15px;
-    text-align: center;
     font-size: 1.1rem;
+  }
+
+  #top-icons {
+    text-align: center;
   }
   
   #top-text {
     margin-bottom: 0px;
     color:#fff;
+    text-align: center;
   }
 
   .header-icons{
@@ -893,142 +726,100 @@ h1, h2, h3, h4, .nav-link {
     width: 370px;
   }
 
-  #subheader {
+  .thankyou-page {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 20px;
-    color: rgb(54, 94, 130);
-  }
-
-  .fa-home {
-    color: rgb(124, 122, 122);
-  }
-
-  a#part1:hover {
-    text-decoration: none;
-  }
-
-  .fa-home:hover {
-    color: rgb(0, 0, 0);
-  }
-
-  #part2 {
-    color: rgb(53, 94, 130);
-  }
-
-  #part2:hover {
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  #subheader p {
-    margin: 0;
-    margin-bottom: 1rem;   
-  }
-
-  #aboutTitle {
-    padding: 0 0 35px;
-    border-bottom: 1px solid rgb(53, 94, 130);
-  }
-
-  /* ABOUT  */
-  #about.section {
-    padding-top: 35px;
-    padding-bottom: 50px; 
-  }
-
-  #about-text {
-    margin-top: 50px;
-  }
-
-  #about-img-first {
-    width: 100%;
-  } 
-
-  #about-div-second, #about-div-third {
-    padding: 0;
-  }
-
-  .aboutImage {
-    padding-top: 250px;
-    padding-bottom: 250px;   
-    background-image: linear-gradient(rgba(112, 168, 229, 0.2), rgb(50, 94, 141)), url(images/about-1.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(rgba(42, 80, 119, 0.82), rgba(12, 75, 129, 0.6)), url(images/form-submission.jpg);;
+    background-position: top;
+    background-size:cover;
     background-repeat: no-repeat;
-    color:#fff;
   }
 
-  .aboutImage div {
-    position: absolute;
-    width: 60%;
-    text-align: center;
-    left: 20%; 
+  #letter {
+    width: 55%;
+    height: 37%;
+    margin-bottom: 15px;
+  }
+ 
+  #text-one {
+    margin-bottom: 0;
+    font-size: 5rem;
+    margin-top: 50px;
+    font-weight: 700;
   }
 
-  .aboutImage h3 {
-    font-size: 2.5rem;
-    font-weight: 600;
-  }
-
-  .aboutImage p {
+  #text-second {
     font-size: 1.2rem;
-    font-style: italic;
   }
 
-  #article-title {
-    margin-top: 30px;
+  #youtube {
+    background: #bb0000;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #youtube:hover {
+    background: #700404;
+  }
+  
+  #instagram {
+    background: #125688;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #instagram:hover {
+    background: #0a324e;
+  }
+
+  #facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #facebook:hover {
+    background: rgb(12, 37, 90);
+  }
+  
+  #twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #twitter:hover {
+    background: rgb(29, 113, 177);
+  }
+
+  #share {
+    margin-top: 50px;
+    font-size: 1.5rem;
     font-weight: 600;
-  }
-
-
-  /* BLOG */
-  .section#blog{
-    padding-top: 100px;
-    padding-bottom: 30px;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-
-  .img-fluid {
-    width: 100%;
-    height: 320px;
-  }
-
-  .img-fluid:hover {
-    opacity: 0.6;
-  }
-
-  #blog {
-    padding-bottom: 25px;
-    text-align: center;
-  }
-
-  .blog-title {
-    margin-top: 15px;
-    font-weight: 600;
-    height: 56px;
-  }
-
-  hr {
-    width: 120px;
-    background-color: rgb(174, 174, 174);    
-  }
-
-  .blog-text {
-    padding: 15px 15px 0;
-  }
-
-  #blog-button {
-    background-color: rgb(50, 94, 141);
-    border-color: rgb(50, 94, 141);
-    padding: .375rem 8rem;
-    margin-bottom: 20px;
-    color: #fff;
-  }
-
-  #blog-button:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
   }
 
   /* FOOTER */
@@ -1068,7 +859,7 @@ h1, h2, h3, h4, .nav-link {
   }
 
   #links a:hover {
-    color: rgba(109, 131, 160, 0.99);
+    color:rgba(109, 131, 160, 0.99);
   }
 
   #media {
@@ -1120,13 +911,17 @@ h1, h2, h3, h4, .nav-link {
     background-color:  #355e82;
     padding-top: 15px;
     padding-bottom: 15px;
-    text-align: center;
     font-size: 1.1rem;
+  }
+
+  #top-icons {
+    text-align: center;
   }
   
   #top-text {
     margin-bottom: 0px;
     color:#fff;
+    text-align: center;
   }
 
   .header-icons{
@@ -1153,149 +948,109 @@ h1, h2, h3, h4, .nav-link {
     font-size: 1.3rem;
     color: black;
   }
-  
+
   .navbar-brand {
     width: 370px;
   }
 
-  #subheader {
+  .thankyou-page {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 20px;
-    color: rgb(54, 94, 130);
-  }
-
-  .fa-home {
-    color: rgb(124, 122, 122);
-  }
-
-  a#part1:hover {
-    text-decoration: none;
-  }
-
-  .fa-home:hover {
-    color: rgb(0, 0, 0);
-  }
-
-  #part2 {
-    color: rgb(53, 94, 130);
-  }
-
-  #part2:hover {
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  #subheader p {
-    margin: 0;
-    margin-bottom: 1rem;   
-  }
-
-  #aboutTitle {
-    padding: 0 0 35px;
-    border-bottom: 1px solid rgb(53, 94, 130);
-  }
-
-  /* ABOUT  */
-  #about.section {
-    padding-top: 80px;
-    padding-bottom: 50px; 
-  }
-
-  #about-text {
-    margin-top: 50px;
-  }
-
-  #about-img-first {
-    width: 100%;
-  } 
-
-  #about-div-second, #about-div-third {
-    padding: 0;
-  }
-
-  .aboutImage {
-    padding-top: 250px;
-    padding-bottom: 250px;   
-    background-image: linear-gradient(rgba(112, 168, 229, 0.2), rgb(50, 94, 141)), url(images/about-1.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(rgba(42, 80, 119, 0.82), rgba(12, 75, 129, 0.6)), url(images/form-submission.jpg);;
+    background-position: top;
+    background-size:cover;
     background-repeat: no-repeat;
-    color:#fff;
   }
 
-  .aboutImage div {
-    position: absolute;
-    width: 60%;
-    text-align: center;
-    left: 20%; 
+  #letter {
+    width: 50%;
+    height: 30%;
+    margin-bottom: 15px;
+  }
+ 
+  #text-one {
+    margin-bottom: 0;
+    font-size: 5rem;
+    margin-top: 50px;
+    font-weight: 700;
   }
 
-  .aboutImage h3 {
-    font-size: 2.5rem;
-    font-weight: 600;
-  }
-
-  .aboutImage p {
+  #text-second {
     font-size: 1.2rem;
-    font-style: italic;
   }
 
-  #article-title {
-    margin-top: 30px;
+  #youtube {
+    background: #bb0000;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #youtube:hover {
+    background: #700404;
+  }
+  
+  #instagram {
+    background: #125688;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #instagram:hover {
+    background: #0a324e;
+  }
+
+  #facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #facebook:hover {
+    background: rgb(12, 37, 90);
+  }
+  
+  #twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 2.5rem;
+    width: 2.7rem; 
+    text-decoration: none;
+    padding: 4px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    transition: 1s all;
+  }
+
+  #twitter:hover {
+    background: rgb(29, 113, 177);
+  }
+
+  #share {
+    margin-top: 50px;
+    font-size: 1.5rem;
     font-weight: 600;
   }
 
-  /* BLOG */
-  .section#blog{
-    padding-top: 100px;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-
-  .img-fluid {
-    width: 100%;
-    height: 280px;
-  }
-
-  .img-fluid:hover {
-    opacity: 0.6;
-  }
-
-  #blog {
-    padding-bottom: 25px;
-    text-align: center;
-  }
-
-  .blog-title {
-    margin-top: 15px;
-    font-weight: 600;
-    height: 56px;
-  }
-
-  hr {
-    width: 120px;
-    background-color: rgb(174, 174, 174);    
-  }
-
-  .blog-text {
-    padding: 15px 5px 0;
-  }
-
-  #blog-button {
-    background-color: rgb(50, 94, 141);
-    border-color: rgb(50, 94, 141);
-    padding: .375rem 6rem;
-    margin-bottom: 20px;
-    color: #fff;
-  }
-
-  #blog-button:hover {
-    background-color: rgb(65, 112, 142);
-    border-color:rgb(65, 112, 142);
-  }
-
-  /* FOOTER */
-  #footer {
+   /* FOOTER */
+   #footer {
     background-color: rgb(0, 0, 0);
     padding-bottom: 100px;
     padding-top: 100px;
@@ -1330,16 +1085,12 @@ h1, h2, h3, h4, .nav-link {
     margin-bottom: 25px;
   }
 
-  #links a:hover {
-    color:rgba(109, 131, 160, 0.99);
-  }
-
-  #footer-icons.fa:hover {
-    color:rgba(109, 131, 160, 0.99);
-  }
-
   #media {
     margin-top: 30px;
+  }
+
+  #links a:hover {
+    color:rgba(109, 131, 160, 0.99);
   }
 
   a.icons {
