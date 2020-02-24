@@ -90,7 +90,6 @@
               Overcoming all obstacles that cross his path, Lance has developed an unmatched insight on connecting, addressing, and conquering common setbacks and personal struggles of aspiring real estate investors. A man keen on learning every aspect of an ever changing industry to deliver YOU a key to unlock mental barriers, a defined strategy to real estate investment success or even the door to your first home.  
               To be a man with a vision is a job within itself. Lance learned early what his purpose is and since that realization he lives everyday never fearful of defeat and the constant push to make his vision a reality. Deservedly coining the title of the Visionary CEO.
               </p>
-               
             </p>
 
             <!-- <div class="container"> -->
@@ -113,9 +112,13 @@
 
     <!-- SOCIAL MEDIA -->
     <div class="aboutImage">
-      <div>
-        <h3>REAL ESTATE INFORMANT</h3>
-        <p>A strategic plan is absolutely necessary to achieve the commonly sought success and financial security that real estate can provide.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>REAL ESTATE INFORMANT</h3>
+            <p>A strategic plan is absolutely necessary to achieve the commonly sought success and financial security that real estate can provide.</p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -124,7 +127,7 @@
       <div class="container">
         <div class="row">       
           <div class="col-lg-4 col-md-12 col-sm-12">
-            <a href="blog1.html"> <img class="img-fluid" src="images/blog-first.jpeg">  </a>
+            <a href="blog1.html"> <img class="img-fluid" src="images/photo-1.jpg">  </a>
             <h4 class="blog-title"> Foreclosure Failures </h5>
             <p class="date"> February 2, 2020 </p>
             <hr> 
@@ -133,7 +136,7 @@
             <br><br>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12">
-            <a href="blog2.html"> <img class="img-fluid" src="images/blog-second.jpeg"> </a>
+            <a href="blog2.html"> <img class="img-fluid" src="images/photo-2.jpg"> </a>
             <h4 class="blog-title"> Money Pit or Money Maker </h4>
             <p class="date"> January 20, 2020</p>
             <hr> 
@@ -142,7 +145,7 @@
             <br><br>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12">
-            <a href="blog3.html"> <img class="img-fluid" src="images/blog-third.jpeg"> </a>
+            <a href="blog3.html"> <img class="img-fluid" src="images/photo-3.jpg"> </a>
             <h4 class="blog-title"> Is the American dream still alive? </h4>
             <p class="date"> December 28, 2019 </p>
             <hr>
@@ -158,37 +161,38 @@
     <div id="footer" class="section">
       <div class="container">
         <div class="row">
-          <div id="footer-logo" class="col-lg-4 col-md-12 col-sm-12 ">
-            <img src="images/Light_Visionarylogo.svg" width="300px">
-
-            <p> 2020 © All Rights Reserved.</p>
-
+          <div class="col-lg-4 col-md-12 col-sm-12 ">
+            <div id="footer-logo">
+              <img src="images/Light_Visionarylogo.svg" >
+              <p> 2020 © All Rights Reserved.</p>
+            </div>
           </div>
     
-          <div id="links" class="col-lg-4 col-md-12 col-sm-12">
-            <h4> Quick Links </h4>
-            <a href="index.html" class="footer-links">Home </a>   
-            <a href="#" class="footer-links">About </a>
-            <a href="contact.html" class="footer-links">Contact </a> 
-
-            <h4 id="media"> Media </h4>
-            <a href="#" class="icons">
-              <i id="footer-icons" class="fa fa-instagram" ></i>
-            </a>
-            <a href="#" class="icons">
-              <i id="footer-icons" class="fa fa-twitter" ></i>
-            </a>
-            <a href="" class="icons">
-              <i id="footer-icons" class="fa fa-facebook" ></i>   
-            </a>
-            <a href="#" class="icons">
-              <i id="footer-icons" class="fa fa-youtube-play"></i>
-            </a>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div id="links">
+              <h4> Quick Links </h4>
+              <a href="index.html" class="footer-links">Home </a>   
+              <a href="#" class="footer-links">About </a>
+              <a href="contact.html" class="footer-links">Contact </a> 
+  
+              <h4 id="media"> Media </h4>
+              <a href="#" class="icons">
+                <i id="footer-icons" class="fa fa-instagram" ></i>
+              </a>
+              <a href="#" class="icons">
+                <i id="footer-icons" class="fa fa-twitter" ></i>
+              </a>
+              <a href="" class="icons">
+                <i id="footer-icons" class="fa fa-facebook" ></i>   
+              </a>
+              <a href="#" class="icons">
+                <i id="footer-icons" class="fa fa-youtube-play"></i>
+              </a>
+            </div>
           </div>
     
           <div class="col-lg-4 col-md-12 col-sm-12 ">
             <h4 id="newsletter"> Newsletter Subscription </h4>
-            <!-- <input type="text" >  -->
             <form>
               <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
@@ -205,31 +209,7 @@
 
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up fa-2x" aria-hidden="true"></i></button>
 
-    <!--scrollup -->
-    <script>
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function() {
-        scrollFunction()
-      };
-
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("myBtn").style.display = "block";
-        } else {
-            document.getElementById("myBtn").style.display = "none";
-        }
-      }
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
-
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="index.js"> </script>

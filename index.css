@@ -35,10 +35,6 @@ html {
   cursor: pointer;
 }
 
-/* #myBtn:hover {
-  background-color: rgba(254, 201, 87, 0);
-} */
-
 .fa-angle-up {
   color: rgba(40, 40, 41, 0.829);
   height: 60px;
@@ -207,6 +203,7 @@ h1, h2, h3, h4, h5, .nav-link {
 
   .img-fluid {
     height: 225px;
+    width: 100%;
   }
 
   img.img-fluid:hover {
@@ -221,7 +218,6 @@ h1, h2, h3, h4, h5, .nav-link {
   .blog-title {
     margin-top: 15px;
     height: 56px;
-    /* font-size: 1.4rem; */
     font-weight: 600;
   }
 
@@ -290,6 +286,10 @@ h1, h2, h3, h4, h5, .nav-link {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {
@@ -492,6 +492,8 @@ h1, h2, h3, h4, h5, .nav-link {
 
   .img-fluid {
     height: 190px;
+    width: 100%;
+
   }
 
   img.img-fluid:hover {
@@ -574,6 +576,10 @@ h1, h2, h3, h4, h5, .nav-link {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {
@@ -861,6 +867,10 @@ h1, h2, h3, h4, h5, .nav-link {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {
@@ -1158,6 +1168,10 @@ h1, h2, h3, h4, h5, .nav-link {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {
@@ -1463,6 +1477,10 @@ h1, h2, h3, h4, h5, .nav-link {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {

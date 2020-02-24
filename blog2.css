@@ -160,7 +160,7 @@ h1, h2, h3, .nav-link {
   #blog-img {
     margin-top: 40px;
     padding: 250px 0 200px;
-    background-image: url("images/blog-second.jpeg");
+    background-image: url("images/photo-2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -200,6 +200,10 @@ h1, h2, h3, .nav-link {
   margin: 10px 0 25px;
   font-size: 1.7rem;
   padding-right: 10px;
+}
+
+#footer-logo img {
+  width: 300px;
 }
 
 #footer-logo p {
@@ -368,7 +372,7 @@ a.icons {
   #blog-img {
     margin-top: 40px;
     padding: 250px 0 200px;
-    background-image: url("images/blog-second.jpeg");
+    background-image: url("images/photo-2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -408,6 +412,10 @@ a.icons {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {
@@ -575,7 +583,7 @@ a.icons {
   #blog-img {
     margin-top: 40px;
     padding: 250px 0 200px;
-    background-image: url("images/blog-second.jpeg");
+    background-image: url("images/photo-2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -615,6 +623,10 @@ a.icons {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {
@@ -791,7 +803,7 @@ a.icons {
   #blog-img {
     margin-top: 40px;
     padding: 250px 0 200px;
-    background-image: url("images/blog-second.jpeg");
+    background-image: url("images/photo-2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -831,6 +843,10 @@ a.icons {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {
@@ -1008,7 +1024,7 @@ a.icons {
   #blog-img {
     margin-top: 40px;
     padding: 250px 0 200px;
-    background-image: url("images/blog-second.jpeg");
+    background-image: url("images/photo-2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1048,6 +1064,10 @@ a.icons {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {

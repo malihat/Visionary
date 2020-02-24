@@ -175,6 +175,10 @@ h1, h2, h3, .nav-link {
     padding-right: 10px;
   }
 
+  #footer-logo img {
+    width: 300px;
+  }
+
   #footer-logo p {
     color: rgb(255, 255, 255);
     padding-top: 25px;
@@ -393,6 +397,10 @@ h1, h2, h3, .nav-link {
     padding-right: 10px;
   }
 
+  #footer-logo img {
+    width: 300px;
+  }
+
   #footer-logo p {
     color: rgb(255, 255, 255);
     padding-top: 25px;
@@ -608,6 +616,10 @@ h1, h2, h3, .nav-link {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {
@@ -836,6 +848,10 @@ h1, h2, h3, .nav-link {
     padding-right: 10px;
   }
 
+  #footer-logo img {
+    width: 300px;
+  }
+
   #footer-logo p {
     color: rgb(255, 255, 255);
     padding-top: 25px;
@@ -1061,6 +1077,10 @@ h1, h2, h3, .nav-link {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {

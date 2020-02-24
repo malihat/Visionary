@@ -159,9 +159,9 @@ h1, h2, h3, .nav-link {
 
   #blog-img {
     margin-top: 40px;
-    padding: 200px 0 200px;
-    background-image: url("images/blog-first.jpeg");
-    background-position: top;
+    padding: 250px 0 250px;
+    background-image: url("images/photo-1.jpg");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -196,6 +196,10 @@ h1, h2, h3, .nav-link {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {
@@ -363,8 +367,8 @@ h1, h2, h3, .nav-link {
   
   #blog-img {
     margin-top: 40px;
-    padding: 200px 0 200px;
-    background-image: url("images/blog-first.jpeg");
+    padding: 250px 0 250px;
+    background-image: url("images/photo-1.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -400,6 +404,10 @@ h1, h2, h3, .nav-link {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {
@@ -566,8 +574,8 @@ h1, h2, h3, .nav-link {
 
   #blog-img {
     margin-top: 40px;
-    padding: 200px 0 200px;
-    background-image: url("images/blog-first.jpeg");
+    padding: 250px 0 250px;
+    background-image: url("images/photo-1.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -603,6 +611,10 @@ h1, h2, h3, .nav-link {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {
@@ -778,8 +790,8 @@ h1, h2, h3, .nav-link {
 
   #blog-img {
     margin-top: 40px;
-    padding: 200px 0 200px;
-    background-image: url("images/blog-first.jpeg");
+    padding: 250px 0 250px;
+    background-image: url("images/photo-1.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -815,6 +827,10 @@ h1, h2, h3, .nav-link {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {
@@ -991,8 +1007,8 @@ h1, h2, h3, .nav-link {
 
   #blog-img {
     margin-top: 40px;
-    padding: 200px 0 200px;
-    background-image: url("images/blog-first.jpeg");
+    padding: 250px 0 250px;
+    background-image: url("images/photo-1.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1029,6 +1045,10 @@ h1, h2, h3, .nav-link {
     margin: 10px 0 25px;
     font-size: 1.7rem;
     padding-right: 10px;
+  }
+
+  #footer-logo img {
+    width: 300px;
   }
 
   #footer-logo p {
